@@ -1,5 +1,5 @@
 class OneOS < Oxidized::Model
-  prompt /^([\w.@()-]+#\s?)$/
+  prompt /^([\w.@-]+[#>]\s?)$/
   comment  '! '
 
   # example how to handle pager
